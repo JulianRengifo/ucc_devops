@@ -8,15 +8,20 @@ int main() {
 
 int ivalor = 0;
 int icontador = 0;
-cin >> "Ingrese el valor para calcular la suma";
+int i= 0;
 
-for (i = 1; i <= ivalor; i++){
+cout << "Ingrese el valor para calcular la suma./n";
+
+cin >> ivalor;
+
+cout << "Usted ingreso:" << ivalor << endl;
+
+for (i = 1; i <= ivalor; i++) {
 icontador+=i;
 }
 
-cout << "El resultado es: " << icontador;
+cout << "El resultado es: " << icontador << endl;
 
-getch();
 
 return 0;
 
